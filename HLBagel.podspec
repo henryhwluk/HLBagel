@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLBagel'
-  s.version          = '1.3.4'
+  s.version          = '1.3.5'
   s.summary          = 'HLBagel is a little native iOS network sniffer for own use.'
  
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Bagel is a native iOS network sniffer. It's not a proxy debugger so you don't ha
   s.tvos.deployment_target = '11.0'
   s.source_files = 'iOS/Source/*.{h,m}'
   
-  s.dependency 'CocoaAsyncSocket'
+  #s.dependency 'CocoaAsyncSocket'
   s.requires_arc = true
   
 end
