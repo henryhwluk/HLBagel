@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HLBagel'
-  s.version          = '1.3.5'
+  s.version          = '1.3.6'
   s.summary          = 'HLBagel is a little native iOS network sniffer for own use.'
  
   s.description      = <<-DESC
